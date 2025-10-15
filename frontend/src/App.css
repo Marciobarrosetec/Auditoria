@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App {
+  text-align: center;
+  padding: 20px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+}
+
+.menu {
+  background-color: #333;
+  padding: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.conteudo {
+  padding: 20px;
+}
+
+
+.clientes-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+.clientes-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.clientes-form input {
+  flex: 1;
+  padding: 6px;
+}
+
+.clientes-form button {
+  padding: 6px 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+.clientes-form button[type="button"] {
+  background-color: #6c757d;
+}
+
+.clientes-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.clientes-tabela th,
+.clientes-tabela td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.clientes-tabela thead {
+  background-color: #f2f2f2;
+}
+
+.clientes-tabela button {
+  margin-right: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.erro {
+  color: red;
+  font-weight: bold;
+}
