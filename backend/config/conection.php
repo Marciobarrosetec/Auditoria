@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db   = 'reactbd';
+$db   = 'auditoria';
 $user = 'root';
 $pass = '';
 

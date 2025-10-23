@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../App.css"; // o CSS você já deixou no App.css
+import "../App.css"; // o CSS no App.css
 
 function Clientes() {
   const [clientes, setClientes] = useState([]);
@@ -12,7 +12,7 @@ function Clientes() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const apiBase = "http://localhost/Auditoria/backend/api/clientes";
+  const apiBase = "http://localhost:3000/backend/api/clientes";
 
   // ---------------------------
   // 🔹 READ (listar clientes)
